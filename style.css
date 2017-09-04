@@ -1,0 +1,240 @@
+/*SOCIAL MEDIA LINKS*/
+#social {
+    text-align: right;
+    padding: 10px;
+}
+#social a {
+    padding: 0px 10px;
+    color: hotpink;
+}
+
+.tooltip.bottom {
+    border-top-color: white;
+}
+
+.tooltip.bottom .tooltip-inner, .tooltip.left .tooltip-inner {
+    background-color: white;
+    color: hotpink;
+    border: 1px solid hotpink;
+}
+.tooltip.bottom > .tooltip-arrow {
+    border-bottom-color: hotpink;
+}
+.tooltip.left > .tooltip-arrow {
+    border-left-color: hotpink;
+}
+
+
+
+/*LOGO BANNER*/
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*NAVBAR*/
+.navbar {
+    background: white;
+    border: none;
+    border-top: 1px solid #ccc;
+    border-radius: 0;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.dropdown-menu>li>a {
+    font-weight: bold;
+    text-align: center;
+}
+.navbar-default .navbar-nav>li>a{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.navbar-default .navbar-nav>li>a:last-child{
+    margin-right: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    transition: all ease 100ms;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    background: white;
+    box-shadow: 0px 4px 0px hotpink;
+    border: 1px solid hotpink;
+}
+.navbar-default .navbar-nav>li>a:active {
+    box-shadow: 0px 1px 0px hotpink;
+    top: 3px;
+}
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus,
+{
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 2px 4px 0px pink;
+}
+
+/*BANNER UNDER NAVBAR*/
+#banner2 {
+    padding: 0;
+}
+#banner2 img {
+    width: 100%;
+}
+
+
+/*MODAL*/
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-body img {
+    margin-bottom: 20px;
+}
+.modal-title {
+    text-align: center;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .modal-dialog {
+        width: 80vw;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .modal-dialog {
+        width: 60vw;
+    }
+}
+/*.modal-dialog {
+    width: 40vw;
+    margin: 0 auto;
+    top: 150px;
+}*/
+
+
+
+
+
+/*SECTION HEADER*/
+#recommend {
+    background: url(imgs/recommended.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#recommend div {
+    width: 100%;
+    border: none;
+    border-bottom: 2px dashed pink;
+    z-index: -1;
+}
+
+/*ITEM LISTS*/
+#itemlist {
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#itemImgs {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card img {
+    width: 85%;
+    height: auto;
+    cursor: pointer;
+}
+
+.card .card-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-block  h4 {
+    font-weight: bolder;
+    margin-bottom: 0;
+    text-align:
+}
+.card-text {
+    display: none;
+    text-align: center;
+}
+.support img {
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+}
+.support h4 {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/*QnA STYLES*/
+#qna {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+#qna h1 {
+    text-align: center;
+}
+.question, .event {
+    padding: 20px;
+}
+.question, .event{
+    border-bottom: 1px solid pink;
+    cursor: pointer;
+}
+.answer, .info{
+    padding: 30px 10px;
+    border-bottom: 1px solid hotpink;
+    margin-bottom: 10px;
+    display: none;
+}
+.answer a {
+    text-decoration: underline;
+    color: black;
+}
+#notice {
+    margin-bottom: 60px;
+}
+
+
+/*FOOTER*/
+footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid pink;
+    margin-top: 10px;
+    background: pink;
+}
+footer p {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
