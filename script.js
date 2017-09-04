@@ -55,9 +55,9 @@ $(document).ready(function() {
     })
 
     //DISABLE RIGHT CLICK ON THE WEBPAGE
-    // $(document).on("contextmenu", function(e) {
-    //     return false;
-    // });
+    $(document).on("contextmenu", function(e) {
+         return false;
+    });
 
 
 
